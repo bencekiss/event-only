@@ -1,1 +1,3 @@
-events#new page
+<h1>New event in <%= @location.city %> at <%= @location.name %></h1>
+
+<%= render 'form', location: @location, event: @event %>
